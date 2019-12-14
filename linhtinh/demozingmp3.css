@@ -1,0 +1,29 @@
+.container{
+    max-width: 800px;
+    height: 800px;
+    background-color: thistle;
+    margin: 0 auto;
+    display: flex;
+}
+.VNhotmusic{
+    flex: 50%;
+    height: 100%;
+    background-color: thistle;
+}
+.UShotmusic{
+    flex: 50%;
+    height: 100%;
+    background-color: thistle;
+}
+.VNM img{
+    width: 70%;
+    height: 300px;
+    object-fit: cover;
+    left: 20px;
+}
+.USM img{
+    width: 70%;
+    height: 300px;
+    object-fit: cover;
+    margin: 0 auto;
+}

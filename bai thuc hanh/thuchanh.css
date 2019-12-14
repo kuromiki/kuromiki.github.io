@@ -1,0 +1,41 @@
+.grid-container{
+    max-width: 1092px;
+    background-color: aqua;
+    margin: auto;
+}
+.grid-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    background-color: aqua;
+}
+.img img{
+    background-color: blanchedalmond;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+.img:hover img{
+    transform: scale(1.07);
+    border-radius: 5px;
+}
+.img:hover .overlay{
+    opacity: 0.5;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    transition: opacity 0.5s;
+}
+.title{
+    line-height: 1.45;
+    margin: auto ;
+    text-transform: capitalize;
+}
+.item{
+    position: relative;
+}

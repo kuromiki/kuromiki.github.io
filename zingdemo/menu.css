@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+}
+
+.container{
+    max-width: 794px;
+    background-color: #fcfcfc;
+    margin: 0 auto;
+}
+
+.navbar{
+    max-width: 794px;
+    height: 61px;
+    background-color: #fcfcfc;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar>ul>li{
+    padding-right: 16px;
+}
+
+.navbar>ul>li>a{
+    text-decoration: none;
+    display: block;
+    padding: 8px 0px;
+    text-transform: uppercase;
+    transition: all;
+    border-bottom: 2px solid transparent;
+}
+
+.navbar>ul>li:hover>a{
+    border-bottom: 2px solid violet;
+}
+
+.toppic img{
+    width: 794px;
+    height: 265px;
+    object-fit: cover;
+}
+
+.titleMV{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #32323d;
+}
+
+.fa-angle-left{
+    font-size: 40px;
+    color: #f2f2f2;
+}
+
+.fa-angle-right{
+    font-size: 40px;
+    
+}
+
+.papa{
+    display: flex;
+}
+
+.box-album:nth-child(5){
+    padding-right: 0;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 5px;
+    position: relative;
+}
+
+.img img{
+    width: 174px;
+    height: 174px;
+    display: block;
+}
+
+.img:hover img{
+    transform: scale(1.5);
+    border-radius: 5px;
+}
+
+.img:hover .overlay{
+    opacity: 0.5;
+}
+
+.img:hover .icon-play{
+    opacity: 1;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    transition: opacity 0.5s;
+}
+
+.icon-play{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: blanchedalmond;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.nameSong{
+    line-height: 1.45;
+    margin: 8px 0 5px;
+    text-transform: capitalize;
+}
